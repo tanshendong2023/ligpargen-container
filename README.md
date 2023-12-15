@@ -12,11 +12,13 @@ Reproducible Results: The containerized environment ensures that you get consist
 
 ## How to Use
 1. Install Singularity
-   `conda install -c conda-forge singularity`
-2. Seek for the BOSS5.0 from Prof. Jorgensen (william.jorgensen@yale.edu)
-3. download the ligpargen-container.sif to your computer
+   ```bash
+   conda install -c conda-forge singularity
+   ```
+3. Seek for the BOSS5.0 from Prof. Jorgensen (william.jorgensen@yale.edu)
+4. download the ligpargen-container.sif to your computer
    git clone
-4. use example
+5. use example
    `singularity exec --bind /home/tanshendong/soft/boss:/home/tanshendong/boss  ligpargen-container.sif ligparge 'c1ccc(cc1)O' -n phenol -cgen CM1A-LBCC`
    
    
