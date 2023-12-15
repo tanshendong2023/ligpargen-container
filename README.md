@@ -17,9 +17,13 @@ Reproducible Results: The containerized environment ensures that you get consist
    ```
 3. Seek for the BOSS5.0 from Prof. Jorgensen (william.jorgensen@yale.edu)
 4. download the ligpargen-container.sif to your computer
+   ```bash
    git clone
-5. use example
-   `singularity exec --bind /home/tanshendong/soft/boss:/home/tanshendong/boss  ligpargen-container.sif ligparge 'c1ccc(cc1)O' -n phenol -cgen CM1A-LBCC`
+   ```
+6. use example
+   ```bash   
+   singularity exec --bind /home/tanshendong/soft/boss:/home/tanshendong/boss  ligpargen-container.sif ligparge 'c1ccc(cc1)O' -n phenol -cgen CM1A-LBCC
+   ```
    
    
 
